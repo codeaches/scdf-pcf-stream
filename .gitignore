@@ -1,5 +1,6 @@
 /target/
 /_site/
+manifest_dev.yml
 !.mvn/wrapper/maven-wrapper.jar
 
 ### STS ###
