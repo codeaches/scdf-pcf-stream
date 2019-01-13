@@ -4,4 +4,4 @@
 
 Pavan Gurudutt's website [https://codeaches.com](https://codeaches.com)
 
-Tutorial website [https://codeaches.com/deploy-scdf-to-pcf-and-create-a-stream/](https://codeaches.com/deploy-scdf-to-pcf-and-create-a-stream/)
+Tutorial website [https://codeaches.com/blog/deploy-scdf-to-pcf-and-create-a-stream/](https://codeaches.com/blog/deploy-scdf-to-pcf-and-create-a-stream/)
