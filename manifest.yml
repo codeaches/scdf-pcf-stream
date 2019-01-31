@@ -14,10 +14,14 @@ applications:
     SPRING_CLOUD_DEPLOYER_CLOUDFOUNDRY_USERNAME: {email}
     SPRING_CLOUD_DEPLOYER_CLOUDFOUNDRY_PASSWORD: {password}
     SPRING_CLOUD_DEPLOYER_CLOUDFOUNDRY_DOMAIN: cfapps.io
-    SPRING_CLOUD_DEPLOYER_CLOUDFOUNDRY_STREAM_SERVICES: rabbit
-    SPRING_CLOUD_DEPLOYER_CLOUDFOUNDRY_TASK_SERVICES: mysql
+    SPRING_CLOUD_DEPLOYER_CLOUDFOUNDRY_STREAM_SERVICES: my_rabbit
+    SPRING_CLOUD_DEPLOYER_CLOUDFOUNDRY_TASK_SERVICES: my_mysql
     SPRING_CLOUD_DEPLOYER_CLOUDFOUNDRY_SKIP_SSL_VALIDATION: true
-    SPRING_APPLICATION_JSON: '{"maven": { "remote-repositories": { "repo1": { "url": "https://repo.spring.io/libs-release"} } } }'
+    SPRING_APPLICATION_JSON: '{"maven":{"remote-repositories":{"repo1":{"url":"https://repo.spring.io/libs-release"},"repo2":{"url":"https://oss.sonatype.org/content/repositories/snapshots"},"repo3":{"url":"https://oss.sonatype.org/content/repositories/snapshots"}}}}'
+    security.basic.enabled: true
+    security.user.name: user001
+    security.user.password: pass001
+    security.user.role: VIEW,CREATE,MANAGE
   services:
-    - mysql
-    - redis
+    - my_mysql
+    - my_redis

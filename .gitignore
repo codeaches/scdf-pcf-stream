@@ -1,6 +1,7 @@
 /target/
 /_site/
-manifest_dev.yml
+manifest_*.yml
+spring-shell.log
 !.mvn/wrapper/maven-wrapper.jar
 
 ### STS ###
