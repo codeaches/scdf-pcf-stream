@@ -1,7 +1,16 @@
-# codeaches.com
+[![License MIT][MIT badge]][MIT]
+[![License ASL 2.0][ASL 2.0 badge]][ASL 2.0]
 
-> *Copyright 2019 [Pavan Gurudutt](https://codeaches.com). Licensed under the MIT license.*
+The **current** version of this project is licensed under both [MIT] and [ASL 2.0].
 
-Pavan Gurudutt's website [https://codeaches.com](https://codeaches.com)
+## Relevant documents
 
-Tutorial website [https://codeaches.com/blog/deploy-scdf-to-pcf-and-create-a-stream/](https://codeaches.com/blog/deploy-scdf-to-pcf-and-create-a-stream/)
+The tutorial related to this project can be found on [Codeaches Website]
+
+[MIT badge]: https://img.shields.io/:license-MIT%202.0-blue.svg
+[MIT]: https://opensource.org/licenses/mit-license.php
+
+[ASL 2.0 badge]: https://img.shields.io/:license-Apache%202.0-blue.svg 
+[ASL 2.0]: http://www.apache.org/licenses/LICENSE-2.0.html
+
+[Codeaches Website]: https://codeaches.com/blog/spring-cloud-pcf-deploy-scdf-create-stream
